@@ -1,0 +1,5 @@
+<app-menu-logado *ngIf = auth.logado()></app-menu-logado>
+<app-menu *ngIf = auth.offline()></app-menu>
+<router-outlet></router-outlet>
+<app-rodape></app-rodape>
+

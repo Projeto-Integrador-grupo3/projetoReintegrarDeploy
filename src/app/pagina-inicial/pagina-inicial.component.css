@@ -1,0 +1,23 @@
+
+
+.fs{
+    font-size: 44pt;
+}
+
+.fsh5{
+    font-size: 30pt;
+}
+.box{
+    display:flex;
+    justify-content: space-between;
+}
+
+.bgFoto{
+    background-image: url(https://www.fecap.br/files/img/background/visite.jpg);
+    background-size: cover;
+    height: 589px;
+}
+
+.fTab{
+    font-size: 15pt;
+}

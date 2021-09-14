@@ -1,0 +1,48 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-success">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+        aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado" >
+        <ul class="navbar-nav mr-auto d-flex align-items-center">
+            <a routerLink="/home">
+                <img src="../../assets/img/deerLogoWhiteBg.jpg" alt="foto de user" width="50px" height="50px"
+                    class="img-fluid rounded-circle " >
+            </a>
+        </ul>
+        <ul class="navbar-nav d-flex align-items-center">
+            <li class="nav-item">
+                <a class="nav-link text-light pl-4 fTab" routerLink="/home">Página Inicial</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light pl-4 fTab" routerLink="/pagina-inicial">Feed de Postagens</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light pl-4 fTab" href="#sobreNosId" (click)='sobreNos()'>Sobre Nós</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light pl-4 fTab" href="#contatoId" (click)='contatoFn()'>Contato</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav ml-auto d-flex align-items-center" >
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <img src="{{foto}}"
+                    alt="foto de user" width="50px" height="50px" class="img-fluid rounded-circle">
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Mudar Tema</a>
+                    <a class="dropdown-item" href="#">Configurações</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Sair</a><!--Icone Sair-->
+                </div>
+            </li>
+            <!--<li class="text-light fs-16">Epaminondas</li>-->
+        </ul>
+        
+
+    </div>
+</nav>
