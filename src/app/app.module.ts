@@ -19,6 +19,7 @@ import { PaginaInicialComponent } from './pagina-inicial/pagina-inicial.componen
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { HomeComponent } from './home/home.component';
 import { OrderModule } from 'ngx-order-pipe';
+import { LandingComponent } from './landing/landing.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { OrderModule } from 'ngx-order-pipe';
     TemaDeleteComponent,
     TemaComponent,
     PaginaInicialComponent,
-    HomeComponent
+    HomeComponent,
+    LandingComponent
     
   
   ],
